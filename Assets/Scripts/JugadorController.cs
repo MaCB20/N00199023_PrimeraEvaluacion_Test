@@ -17,6 +17,7 @@ public class JugadorController : MonoBehaviour
     const int A_Saltar = 2;
     void Start()
     {
+        Debug.Log("Mensaje de prueba - Update");
         rb = GetComponent<Rigidbody2D>();
 
         sr = GetComponent<SpriteRenderer>();
